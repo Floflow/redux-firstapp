@@ -1,4 +1,4 @@
-import cities from '../cities';
+import cities from '../../data/cities.js';
 
 export function setCities() {
   return {
@@ -6,3 +6,4 @@ export function setCities() {
     payload: cities
   };
 }
+

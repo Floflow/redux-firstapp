@@ -1,7 +1,5 @@
 import React from 'react';
-import CityList from '../containers/city_list';
-import City from '../containers/city';
-
+import CityList from '../containers/city_list.jsx';
 
 const App = () => {
   return (
@@ -12,4 +10,5 @@ const App = () => {
 };
 
 export default App;
+
 

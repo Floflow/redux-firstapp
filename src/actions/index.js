@@ -7,3 +7,9 @@ export function setCities() {
   };
 }
 
+export function setActiveCity(city) {
+  return {
+    type: "SET_ACTIVECITY",
+    payload: city
+  };
+}
